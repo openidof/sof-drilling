@@ -1,42 +1,26 @@
-# OSX
-#
+config.js
+.cov
+coverage
+node_modules
+.naeindex
+coverage.html
+.monitor
+
+*.min.*.js
+*.min.*.css
+assets.json
+
+# Ignore Mac OS desktop services store
 .DS_Store
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
+# Ignore Windows desktop setting file
+desktop.ini
 
-# Android/IntelliJ
-#
-build/
+*.log
+
 .idea
-.gradle
-local.properties
-*.iml
+public/upload/*
 
-# node.js
-#
-node_modules/
-npm-debug.log
-
-# BUCK
-buck-out/
-\.buckd/
-android/app/libs
-*.keystore
+*.sublime-project
+*.sublime-workspace
+*.swp
